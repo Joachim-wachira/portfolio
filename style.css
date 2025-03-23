@@ -3,28 +3,28 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: goldenrod;
+    background-color: rgb(148, 209, 49);
 }
 
 header {
-    background: #333;
+    background: #412727;
     color: #fff;
     padding: 1em;
     text-align: center;
-}
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Makes the image round */
-    box-shadow: 0 0 10px 5px #4CAF50; /* Adds the glowing effect */
-    display: block;
-    margin: 0 auto; /* Centers the image */
 }
 
 header nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    justify-content: space-around;
+    border: solid 1px #fff;
+    padding: 5px 10px;
+    background-color: rgb(32, 68, 11);
+}
+header nav a:hover {
+    background: #bd1e1e;
+    color: #333;
 }
 
 section {
@@ -47,4 +47,12 @@ footer {
     background: #333;
     color: #fff;
     padding: 10px 0;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+    box-shadow: 0 0 10px 5px #4CAF50; /* Adds the glowing effect */
+    display: block;
+    margin: 0 auto; /* Centers the image */
 }
